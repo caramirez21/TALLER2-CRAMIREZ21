@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Sonidos de Animales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .endpoint {
+            margin-bottom: 20px;
+        }
+        .endpoint h2 {
+            color: #0056b3;
+        }
+        .endpoint p {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de Sonidos de Animales</h1>
+        <div class="endpoint">
+            <h2>Sonido del Perro</h2>
+            <p>Consulta: <code>GET http://localhost:5000/api/sonido/perro</code></p>
+            <p>Ejemplo de respuesta:</p>
+            <pre>
+{
+"nombre": "Rex",
+"sonido": "Ladrando..."
+}
+</pre>
+</div>
+<div class="endpoint">
+<h2>Sonido del Gato</h2>
+<p>Consulta: <code>GET http://localhost:5000/api/sonido/gato</code></p>
+<p>Ejemplo de respuesta:</p>
+<pre>
+{
+"nombre": "Miau",
+"sonido": "Maullando..."
+}
+</pre>
+</div>
+<div class="endpoint">
+<h2>Sonido del Hurón</h2>
+<p>Consulta: <code>GET http://localhost:5000/api/sonido/huron</code></p>
+<p>Ejemplo de respuesta:</p>
+<pre>
+{
+"nombre": "Furry",
+"sonido": "¡Eek Eek!"
+}
+</pre>
+</div>
+<div class="endpoint">
+<h2>Sonido de la Boa Constrictor</h2>
+<p>Consulta: <code>GET http://localhost:5000/api/sonido/boa</code></p>
+<p>Ejemplo de respuesta:</p>
+<pre>
+{
+"nombre": "Soru",
+"sonido": "¡Tsss!"
+}
+</pre>
+</div>
+</div>
+
+   </body>
+   </html>
